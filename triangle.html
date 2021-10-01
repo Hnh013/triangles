@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Mark 12 | Triangles</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="navbar-div">
+              <h1><a href="./index.html">Triangles</a></h1>
+            </div>
+            <div class="navbar-div">
+               <div class="nav-item"><a href="./area.html"><span>Area</span></a></div>
+                <div class="nav-item"><a href="./hypotenuse.html"><span>Hypotenuse</span></a></div>
+                  <div class="nav-item"><a href="./quiz.html"><span>Quiz</span></a></div>
+                    <div class="nav-item"><a href="./triangle.html"><span>Is Triangle</span></a></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <div class="maindiv">
+      <div class="ques0">
+        <label></label>
+        <label for="angle1">Angle 1</label>
+        <br>
+        <input class="angle-input" type="number" name="angle1" id="angle1"  min="1" max="178" required>
+        <br>
+        <label for="angle1">Angle 2</label>
+        <br>
+        <input class="angle-input" type="number" name="angle2" id="angle2"  min="1" max="178" required>
+        <br>
+        <label for="angle1">Angle 3</label>
+        <br>
+        <input class="angle-input" type="number" name="angle3" id="angle3"  min="1" max="178" required>
+        <br>
+        <button class="sumBtn" id="sumBtn">Check</button>
+        <div style="display: none;" id="errMsg" class="errMsg">Please fill valid entires in all three angles</div>
+        <div style="display: none;" id="winMsg" class="winMsg">Bravo , these angles form a triangle</div>
+        <div style="display: none;" id="losMsg" class="losMsg">Oops ! these angles don't form a triangle</div>
+    </div>
+    </div>
+    </main>
+    <footer>
+      <div class="footer-div">
+        <div class="social-icon"> &copy | Harshit Negi | 2021</div>
+        <div class="social-icon"><a href="https://www.facebook.com/harshit.negi.520/"><i
+                    class="fa fa-facebook-square"></i></a></div>
+        <div class="social-icon"><a href="https://github.com/Hnh013"><i class="fa fa-github-square"></i></a></div>
+        <div class="social-icon"><a href="https://www.linkedin.com/in/harshit-negi-891bb717a/"><i
+                    class="fa fa-linkedin-square"></i></a></div>
+        <div class="social-icon"><a href="https://twitter.com/Harshit24076243"><i class="fa fa-twitter-square"></i></a>
+        </div>
+        <div class="social-icon"><a href="https://www.instagram.com/hnh013/"><i class="fa fa-instagram"></i></a></div>
+    </div>
+    </footer>
+    <script src="./triangle.js"></script>     
+</body>
+</html>
