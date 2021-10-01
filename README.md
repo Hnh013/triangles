@@ -2,7 +2,7 @@
 ### A simple website to try out your knowledge about triangles      
 
 The app is made in vanilla JS so there is no need to install the dependencies    
-Live App at :     
+Live App at :  https://triangles-hkedvzqiu-hnh013.vercel.app/    
 Pre-requisites : A code editor      
 Steps to run the app at your local machine     
 
